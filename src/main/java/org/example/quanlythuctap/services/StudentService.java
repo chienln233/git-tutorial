@@ -108,7 +108,7 @@ public class StudentService {
     @Scheduled(fixedRate = 900000)
     public void sinhVienDiemTTCaoNhat(){
         List<Student> sVDiemTTCaoNhat= studentRepository.sinhVienDiemTTCaoNhat();
-        System.out.println("Sinh viên có điểm thực tập cao nhất:");
+        System.out.println("Sinh viên có điểm thực tập cao \\:");
         System.out.println("Mã sinh viên: " + sVDiemTTCaoNhat.get(0).getMaSV());
         System.out.println("Họ tên: " + sVDiemTTCaoNhat.get(0).getHoTen());
     }
