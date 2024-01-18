@@ -79,6 +79,7 @@ public class InstructService {
                 new ResponseObject("Failed","Cannot find instruct to delete","")
         );
     }
+
     public List<Object[]> deTaiNhieuSVTT() {
         return  instructRepository.deTaiCoHon2SVThamGiaTT();
     }
