@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "api/Topic")
-public class TopicController extends BaseController {
+public class TopicController {
     @Autowired
     private TopicService topicService;
 

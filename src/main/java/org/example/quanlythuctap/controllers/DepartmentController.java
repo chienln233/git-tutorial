@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "api/Department")
-public class DepartmentController extends BaseController {
+public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
 
