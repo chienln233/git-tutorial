@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "/api/Instruct")
-public class InstructController extends BaseController {
+public class InstructController {
     @Autowired
     private InstructService instructService;
     @GetMapping("")

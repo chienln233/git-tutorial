@@ -17,7 +17,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "/api/Lecturer")
-public class LecturerController extends BaseController {
+public class LecturerController {
     @Autowired
     private LecturerService lecturerService;
 
