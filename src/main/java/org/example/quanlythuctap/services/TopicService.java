@@ -65,7 +65,7 @@ public class TopicService {
             );
         }
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(
-                new ResponseObject("failed","Cannot find topic to delete","")
+                new ResponseObject("failedd","Cannot find topic to delete","")
         );
     }
     public  List<Object> deTaiKinhPhiMax() {
