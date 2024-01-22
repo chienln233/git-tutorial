@@ -28,9 +28,9 @@ public class InstructController {
     List<Object[]> timDeTai() {
         return instructService.timDeTai();
     }
-
     @GetMapping("/tim_giangvien")
     List<Object[]> thongTinGV() {
+        System.out.println("Hi");
         return instructService.thongTinGV();
     }
 
