@@ -113,7 +113,7 @@ public class StudentService {
         System.out.println(mergeAlternately(word1,word2));
     }
     String word1 ="abc321";
-    String word2 ="def";
+    String word2 ="deff";
     public String mergeAlternately(String word1, String word2) {
         StringBuilder sb = new StringBuilder();
         int min = Math.min(word1.length() , word2.length());
