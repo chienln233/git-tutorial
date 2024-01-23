@@ -32,6 +32,7 @@ public class InstructController {
     List<Object[]> thongTinGV() {
         System.out.println("Hahaha123");
         System.out.println("Hehehe123");
+
         return instructService.thongTinGV();
     }
 
