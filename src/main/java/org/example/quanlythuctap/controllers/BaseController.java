@@ -4,9 +4,6 @@ public class BaseController {
     protected boolean xacThuc(String username, String password) {
         String taiKhoan = "abc";
         String matKhau = "12333";
-        //l1
-        //l2
-        //l3
         return taiKhoan.equals(username) && matKhau.equals(password);
     }
 }
