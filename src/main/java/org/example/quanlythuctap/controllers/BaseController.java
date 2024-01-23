@@ -2,6 +2,7 @@ package org.example.quanlythuctap.controllers;
 
 public class BaseController {
     //test
+    //okee
     //hay
     protected boolean xacThuc(String username, String password) {
         String taiKhoan = "abc";
