@@ -6,6 +6,7 @@ public class BaseController {
         String matKhau = "12333";
         //l1
         //l2
+        //l3
         return taiKhoan.equals(username) && matKhau.equals(password);
     }
 }
