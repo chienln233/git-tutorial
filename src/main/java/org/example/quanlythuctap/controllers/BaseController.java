@@ -7,6 +7,7 @@ public class BaseController {
         //c1
         //cc2
         //c2
+        //c3
         return taiKhoan.equals(username) && matKhau.equals(password);
     }
 }
