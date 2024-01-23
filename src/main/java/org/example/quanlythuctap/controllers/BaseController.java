@@ -4,6 +4,7 @@ public class BaseController {
     //test
     //okee
     //hay
+    //c
     protected boolean xacThuc(String username, String password) {
         String taiKhoan = "abc";
         String matKhau = "12333";
