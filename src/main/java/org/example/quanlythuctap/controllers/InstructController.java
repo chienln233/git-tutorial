@@ -31,7 +31,7 @@ public class InstructController {
     @GetMapping("/tim_giangvien")
     List<Object[]> thongTinGV() {
         System.out.println("Hahaha");
-
+        System.out.println("Hehehe");
         return instructService.thongTinGV();
     }
 
